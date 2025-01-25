@@ -2,19 +2,19 @@
 This project involved the orchestration of a containerized application using Google Kubernetes Engine (GKE).
 The application consists of two services:
 
-• Frontend: simondaniel254/ip4-frontend:v1.0.0
+### • Frontend: simondaniel254/ip4-frontend:v1.0.0
 
-• Backend: simondaniel254/ip4-backend:v1.0.0
+### • Backend: simondaniel254/ip4-backend:v1.0.0
 
 The backend communicates with a MongoDB cluster (configured within the backend image). The deployment uses Kubernetes objects such as Deployments, Services, Persistent Volumes to ensure scalability, availability, and reliability.
 
 # Architecture
 
-• Frontend: Exposed to the internet via a Kubernetes LoadBalancer service.
+### • Frontend: Exposed to the internet via a Kubernetes LoadBalancer service.
 
-• Backend: Exposed internally to the frontend via a ClusterIP service.
+### • Backend: Exposed internally to the frontend via a ClusterIP service.
 
-• Database: Hosted on an external MongoDB cluster.
+### • Database: Hosted on an external MongoDB cluster.
 
 # Requirements
 • Have a Google Cloud Account.
