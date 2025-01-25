@@ -21,6 +21,7 @@ The backend communicates with a MongoDB cluster (configured within the backend i
 • Kubernetes CLI (kubectl) is installed on your Local Machine
 • Install Google cloud CLI to interact with the cloud directly from local development.
 - [gcloud CLI](https://cloud.google.com/sdk/docs/install#deb) 
+
 • Have the application containerized and pushed to docker hub as shown below:
 
 ![Alt text](image.jpeg)
