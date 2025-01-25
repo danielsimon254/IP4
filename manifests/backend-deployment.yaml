@@ -17,3 +17,10 @@ spec:
         image: simondaniel254/ip4-backend:v1.0.0
         ports:
         - containerPort: 5000
+        volumeMounts:
+        - mountPath: /app/data
+          name: backend-data
+      volumes:
+      - name: backend-data
+        persistentVolumeClaim:
+          claimName: backend-storage
