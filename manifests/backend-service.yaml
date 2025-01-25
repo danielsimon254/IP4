@@ -9,4 +9,12 @@ spec:
   - protocol: TCP
     port: 5000
     targetPort: 5000
+    nodePort: 30433
   clusterIP: 10.132.0.7
+  Resources:
+            limits:
+              memory: "256Mi"
+              cpu: "500m"
+            requests:
+              memory: "128Mi"
+              cpu: "250m"
