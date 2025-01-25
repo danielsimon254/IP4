@@ -31,7 +31,7 @@ The backend communicates with a MongoDB cluster (configured within the backend i
 ## Clone this repository:
 
 • git clone https://github.com/danielsimon254/IP4
-• cd <repository-folder>
+
 
 ## Apply the Kubernetes manifests in the following order:
 
