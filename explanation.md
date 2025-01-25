@@ -1,5 +1,10 @@
 # 1. Choice of Kubernetes Objects
 
+## Explanation of choices:
+    • Stateful sets will be used to store store temporary data/ logs for both fontend and backend.
+    • Persistent storage.- uses persistent volume claim to ensure data never gets lost when containers start, terminate or re-provisioned.
+    • Service with LoadBalancer: Exposing the frontend via a LoadBalancer ensures external availability. If a frontend pod fails, the LoadBalancer routes traffic to the remaining pods.
+
 ## Backend
 
 - Deployment: Ensures two replicas of the backend service are always running. This provides high availability.
