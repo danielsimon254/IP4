@@ -43,6 +43,8 @@ The backend communicates with a MongoDB cluster (configured within the backend i
 
 • kubectl get pods
 
+![alt text](image1.png)
+
 ## Get the external IP of the frontend service:
 
 • kubectl get svc frontend-service
