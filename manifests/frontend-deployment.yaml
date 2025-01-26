@@ -14,9 +14,9 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: simondaniel254/ip4-frontend:v1.0.0
+        image: simondaniel254/app-frontend:v4.4.4
         ports:
         - containerPort: 3000
         env:
         - name: BACKEND_URL
-          value: http://10.132.0.7:5000
+          value: http://34.118.224.1:5000

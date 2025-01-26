@@ -54,7 +54,7 @@ The backend communicates with a MongoDB cluster (configured within the backend i
 # LIVE Application
     • Visit the external IP of the frontend service in your browser.
     
-     [Live URL] (http://34.38.147.47:80)
+     [Live URL] (http://34.77.110.252:80)
 
 # Repository Structure
 

@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: simondaniel254/ip4-backend:v1.0.0
+        image: simondaniel254/app-backend:v1.0.0
         ports:
         - containerPort: 5000
         volumeMounts:
